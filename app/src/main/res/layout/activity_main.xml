@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mlgrier.myappportfolio.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="My Nanodegree Apps!"
+        android:id="@+id/textView"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="22dp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="POPULAR MOVIES"
+        android:id="@+id/popularBtn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="12dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3b50c1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="STOCK HAWK"
+        android:id="@+id/stockBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="12dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3b50c1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="BUILD IT BIGGER"
+        android:id="@+id/buildItBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="12dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3b50c1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="MAKE YOUR APP MATERIAL"
+        android:id="@+id/makeYourBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="12dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3b50c1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="GO UBIQUITOUS"
+        android:id="@+id/goBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:layout_marginBottom="12dp"
+        android:textColor="#ffffff"
+        android:backgroundTint="#3b50c1"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="CAPSTONE"
+        android:id="@+id/capstoneBtn"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/roundedbutton"
+        android:backgroundTint="#eb129403"
+        android:textColor="#ffffff"
+        android:clickable="true"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
